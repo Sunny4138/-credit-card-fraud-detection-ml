@@ -1,10 +1,10 @@
-***🛡️ Credit Card Fraud Detection Using Machine Learning
+*** 🛡️ Credit Card Fraud Detection Using Machine Learning
 
 This project focuses on detecting fraudulent credit card transactions using advanced machine learning techniques. The system is designed to handle highly imbalanced real-world financial data where fraudulent activity is extremely rare compared to normal transactions.
 
 
 
-**🚀 Project Overview
+** 🚀 Project Overview
 
 • Developed an end-to-end fraud detection pipeline using Python & Machine Learning.
 
@@ -26,7 +26,7 @@ This project focuses on detecting fraudulent credit card transactions using adva
 
 
 
-**🛠️ Technologies Used
+** 🛠️ Technologies Used
 
 • Language: Python
 
@@ -40,26 +40,27 @@ This project focuses on detecting fraudulent credit card transactions using adva
 
 • Hardware: CPU-based environment (No GPU required)
 
-**📁 Project Structure
+** 📁 Project Structure
 
-
-.
-├── data/                      # Dataset (creditcard.csv)
-├── models/                    # Saved models
+project/
+├── data/                     # Dataset files
+│   └── creditcard.csv
+├── models/                   # Saved ML models
 │   ├── fraud_best_rf.pkl
 │   ├── fraud_best_xgb.pkl
 │   └── amount_scaler.pkl
 ├── notebooks/
-│   └── fraud_detection.ipynb  # Full Jupyter notebook
+│   └── fraud_detection.ipynb # Full Jupyter Notebook
 ├── src/
-│   ├── train_model.py         # Training logic
-│   ├── evaluate.py            # Evaluation script
-│   └── inference.py           # Prediction on new data
-├── screenshots/               # Results & graphs
+│   ├── train_model.py        # Model training script
+│   ├── evaluate.py           # Evaluation logic
+│   └── inference.py          # Prediction script for new data
+├── screenshots/              # Plots, results, graphs
 ├── requirements.txt
 └── README.md
 
-🔧 Installation
+
+** 🔧 Installation
 
 
 
@@ -69,7 +70,7 @@ pip install -r requirements.txt
 
 
 
-**🧪 Training
+** 🧪 Training
 
 
 python src/train_model.py
@@ -80,7 +81,7 @@ or open the Jupyter notebook:
 jupyter notebook notebooks/fraud_detection.ipynb
 
 
-**📊 Evaluation
+** 📊 Evaluation
 
 Key performance metrics:
 
@@ -90,7 +91,7 @@ RandomForest	0.68	0.98	0.82
 
 XGBoost performed best, especially in recall and fraud-class detection.
 
-**📈 Results Summary
+** 📈 Results Summary
 
 • Fraud detection improved significantly after applying SMOTE.
 
@@ -105,18 +106,18 @@ XGBoost performed best, especially in recall and fraud-class detection.
 
 
 
-**🔍 Inference (Predict Fraud)
+** 🔍 Inference (Predict Fraud)
 
 python src/inference.py --model models/fraud_best_xgb.pkl --input transactions.csv
 
 
-**📦 License
+** 📦 License
 
 This project is licensed for academic and educational use.
 
 
 
-**✍️ Author
+** ✍️ Author
 
 If you need help with training, evaluation, or improving the machine learning model, feel free to reach out!
 
