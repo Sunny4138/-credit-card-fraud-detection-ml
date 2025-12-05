@@ -42,22 +42,16 @@ This project focuses on detecting fraudulent credit card transactions using adva
 
 ## 📁 Project Structure
 
-project/
-├── data/                     # Dataset files
-│   └── creditcard.csv
-├── models/                   # Saved ML models
-│   ├── fraud_best_rf.pkl
-│   ├── fraud_best_xgb.pkl
-│   └── amount_scaler.pkl
-├── notebooks/
-│   └── fraud_detection.ipynb # Full Jupyter Notebook
+.
+├── dataset/                  # Annotated images in YOLO format
+├── models/                   # Pretrained and trained weights
 ├── src/
-│   ├── train_model.py        # Model training script
-│   ├── evaluate.py           # Evaluation logic
-│   └── inference.py          # Prediction script for new data
-├── screenshots/              # Plots, results, graphs
-├── requirements.txt
-└── README.md
+│   ├── train.py              # Model training
+│   ├── evaluate.py           # Model evaluation
+│   └── inference.py          # Run detection on test images
+├── sample_images/            # Sample test images
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
 
 
 ## 🔧 Installation
