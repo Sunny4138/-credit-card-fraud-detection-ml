@@ -67,32 +67,32 @@ project/
 
 
 
-git clone https://github.com/your-username/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
-pip install -r requirements.txt
+-- git clone https://github.com/your-username/credit-card-fraud-detection.git
+-- cd credit-card-fraud-detection
+-- pip install -r requirements.txt
 
 
 
 ## 🧪 Training
 
 
-python src/train_model.py
+-- python src/train_model.py
 
 
 or open the Jupyter notebook:
 
-jupyter notebook notebooks/fraud_detection.ipynb
+-- jupyter notebook notebooks/fraud_detection.ipynb
 
 
 ## 📊 Evaluation
 
-Key performance metrics:
+-- Key performance metrics:
 
-Model	F1-Score	ROC-AUC	PR-AUC
-XGBoost	0.78	0.99	0.85
-RandomForest	0.68	0.98	0.82
+-- Model	F1-Score	ROC-AUC	PR-AUC
+-- XGBoost	0.78	0.99	0.85
+-- RandomForest	0.68	0.98	0.82
 
-XGBoost performed best, especially in recall and fraud-class detection.
+-- XGBoost performed best, especially in recall and fraud-class detection.
 
 ## 📈 Results Summary
 
@@ -111,18 +111,18 @@ XGBoost performed best, especially in recall and fraud-class detection.
 
 ## 🔍 Inference (Predict Fraud)
 
-python src/inference.py --model models/fraud_best_xgb.pkl --input transactions.csv
+-- python src/inference.py --model models/fraud_best_xgb.pkl --input transactions.csv
 
 
 ## 📦 License
 
-This project is licensed for academic and educational use.
+-- This project is licensed for academic and educational use.
 
 
 
 ## ✍️ Author
 
-If you need help with training, evaluation, or improving the machine learning model, feel free to reach out!
+-- If you need help with training, evaluation, or improving the machine learning model, feel free to reach out!
 
 📩 Email: sunnyk36803@gmail.com
 
